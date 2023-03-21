@@ -271,7 +271,7 @@ for _ in range(int(input())):
 ### 範例:
 ![](https://i.imgur.com/ttgxa7S.png)
 設一字串為a，輸入a字串，
-
+透過rbegin指向a的最後一個位置和rend指向a的最前面的位置，來對字串進行判斷是否為迴文。
 ```cpp
 #include <iostream>    
 #include <string>  
